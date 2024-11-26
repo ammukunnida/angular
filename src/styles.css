@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+.boddy{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(156, 42, 42);
+}
+.line1{
+    color: white;
+    margin-top: -30px;
+    margin-right: 830px;
+
+}
+.line2{
+    color:white;
+    margin-left: 830px;
+    margin-top: -8px;
+}
+
+.goal-container {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    margin-left: 380px;
+    margin-top: 175px;
+}
+
+
+.goal-card {
+    background-color: #f1ebeb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.goal-card:hover {
+    transform: scale(1.03);
+}
+
+.goal-title {
+    font-size: 24px;
+    color:rgb(45, 9, 63);
+    margin-bottom: 10px;
+}
+
+
+.goal-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #504949;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .goal-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
